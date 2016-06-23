@@ -2,8 +2,8 @@
 title: Svti 的个人博客
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+copyright_name: https://svti.github.io
+description: "云计算/大数据/搜索引擎/机器学习"
 baseurl: "/svti.github.io"
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
