@@ -6,7 +6,8 @@ description: "Svti的个人博客"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
+        <h2 class="post-title">
+            {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
@@ -24,7 +25,7 @@ description: "Svti的个人博客"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 最近的文章</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 更早的文章</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
